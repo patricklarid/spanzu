@@ -37,7 +37,7 @@ int main()
         char guess;
         cout << "\n\nEnter your guess: ";
         cin >> guess;
-        guess = toupper(guess); // make uppercase since secret word is written in uppercase
+        guess = toupper(guess); // make it uppercase since the secret word is written in uppercase
 
         while (used.find(guess) != string::npos)
         {

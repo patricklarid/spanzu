@@ -4,6 +4,7 @@
 #include <cstdlib>
 #include <ctime>
 #include <algorithm>
+#include <conio.h>
 
 using namespace std;
 
@@ -147,6 +148,6 @@ int main()
 
     cout << "\nThe word was " << THE_WORD << endl;
     
-    std::getchar();
+    getch();
     return 0;
 }
